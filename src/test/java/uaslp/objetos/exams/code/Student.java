@@ -24,15 +24,13 @@ public class Student {
     }
 
     public double getAverage() {
-        return average;
+        return average/3;
     }
 
-    public void setAverage(double average) {
-        this.average = average;
-    }
 
     public void setScore(int parcial, int calificacion) {
         score=calificacion;
+        average=score+average;
         this.parcial=parcial;
     }
 }

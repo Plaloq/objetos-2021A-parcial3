@@ -38,5 +38,6 @@ public class Group {
     }
 
     public void addStudent(Student name) {
+
     }
 }
