@@ -1,9 +1,8 @@
 package uaslp.objetos.exams;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import uaslp.objetos.exams.code.*;
+import uaslp.objectos.exams.*;
 
 import java.util.List;
 
